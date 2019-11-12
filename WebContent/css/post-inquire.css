@@ -1,0 +1,40 @@
+main{text-align: center;height: auto;}
+main > div{width: 80%;margin-bottom: 30px;}
+/* 이전글 다음글 삭제 수정 목록 */
+main > div:first-child{margin: 30px 0 10px 0;height: 30px;display: inline-block;}
+main > div:first-child > button{font-size: 18px;height: 30px;padding-top: 5px;}
+main > div:first-child > button:nth-child(1){width: 90px;float: left;margin-left: 30px;}
+main > div:first-child > button:nth-child(2){width: 90px;float: left;margin-left: 15px;}
+main > div:first-child > button:nth-child(3){width: 60px; float: right;margin-right: 30px;}
+main > div:first-child > button:nth-child(4){width: 60px; float: right;margin-right: 15px;}
+main > div:first-child > button:nth-child(5){width: 60px; float: right;margin-right: 15px;}
+
+/* 게시글 */
+main > div:last-child{display: inline-block;border: 1px solid #222;border-radius: 25px;background: rgb(225, 225, 225)}
+/* 상단부 */
+main > div:last-child > div:nth-child(1){height:80px;border-bottom: 1px solid silver;}
+main > div:last-child > div:nth-child(1) > *{display: inline-block;height: 50px;width: 45%;}
+main > div:last-child > div:nth-child(1) > *:nth-child(2n){text-align: right;}
+main > div:last-child > div:nth-child(1) > *:nth-child(2n+1){text-align: left;}
+main > div:last-child > div:nth-child(1) > *:nth-child(1){height:auto;float: left;display: block;  margin-top: 10px;font-size: 16px;margin-left: 30px;}
+main > div:last-child > div:nth-child(1) > *:nth-child(2){height:auto;float: right;display: block; margin-top: 10px;font-size: 16px;margin-right: 30px;}
+main > div:last-child > div:nth-child(1) > *:nth-child(3){height:auto;float: left;display: block; margin-top: 10px;margin-left: 25px}
+main > div:last-child > div:nth-child(1) > *:nth-child(4){height:auto;float: right;display: block;margin-top: 10px;margin-right: 30px;}
+/* 본문 */
+main > div:last-child > div:nth-child(2) {border-bottom: 1px solid silver; padding-bottom: 30px;}
+/* 글*/
+main > div:last-child > div:nth-child(2) > *:nth-child(1){width:95%;height: auto;margin-top: 20px;text-align: left;}
+main > div:last-child > div:nth-child(2) > *:nth-child(1) > p{font-size: 20px;padding-bottom: 10px;}
+
+/* 하단 */
+/* main > div:last-child > div:nth-child(3){} */
+.reply{width: 95%;height: auto;text-align: left;}
+.reply > div > *{width: auto;}
+.reply > *{padding: 10px 10px 5px 10px;margin-bottom: 10px;}
+.reply > * > h4{display: inline-block;}
+/* 작성자 */
+.reply > * > h4:nth-child(1){font-size: 20px;}
+/* 날짜 */
+.reply > * > h4:nth-child(2){font-size: 14px;margin: 0 10px;}
+/* 글 내용 */
+.reply > * > p{margin-top: 10px;font-size: 16px}

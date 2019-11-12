@@ -1,0 +1,23 @@
+main{vertical-align: middle;height: 580px;}
+section{text-align: left;width: 730px;margin-bottom: 10px;padding-top: 68px}
+section > p {padding-bottom: 20px;font-weight: bold;font-size: 30px;}
+form{width: 730px;text-align: center}
+form * {margin-bottom: 30px;}
+form > label:nth-child(1){display: inline;margin:0;}
+form [type="checkbox"] {width: 30px;height: 30px; display: inline-block;vertical-align: middle;margin-bottom: 6px;}
+form [type="checkbox"] ~ span {font-weight: bold;font-size: 30px;color: red;
+    vertical-align: middle;padding-bottom: 10px;}
+form > p {font-weight: bold;font-size: 30px;margin-top: 20px}
+form > label:nth-last-child(2) > input{height: 40px;color: black}
+form > [type="submit"]{height: 45px;width: 120px;}
+form > label > input {font-family: 'Courier New', Courier, monospace;}
+form > button{height: 45px;width: 110px;}
+form::after{content:"";clear: both;display: block;}
+.popup__destory {display: none;}
+.popup__destory > .bg__destory{background: #000;opacity: .7;z-index: 9999;position: fixed;top: 0;left: 0;}
+.popup__destory > .layer__destory{width: 270px;height: 120px;background: #f4f4f4;z-index: 10000;
+    position: fixed;right: 0;left: 0;border: 1px solid #222;
+    border-radius: 5px;
+    padding: 10px;text-align: center;vertical-align: middle}
+.layer__destory > h2{margin-top: 20px;margin-bottom: 10px;}
+.layer__destory > button{width: 75px;height: 45px;border-radius: 10%}

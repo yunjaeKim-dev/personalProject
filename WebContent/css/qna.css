@@ -1,0 +1,40 @@
+main{height: auto;}
+
+table {width: 1000px;margin-bottom: 60px;border-spacing: 0 15px;}
+
+.qna-table {margin-top: 50px;}
+.qna-table > *:nth-child(1) > tr > th{font-size: 26px;height: 40px;text-align: center;width: 70px;padding: 10px;}
+.qna-table > *:nth-child(1) > tr > th:nth-child(1){cursor: pointer; border-top: 4px solid #118318;border-bottom:none;border-left: 1px solid #222;border-right: 1px solid #222}
+.qna-table > *:nth-child(1) > tr > th:nth-child(2){cursor: pointer; border-right: 1px solid #222;border-top: 1px solid #222;border-bottom: 1px solid #222;}
+.qna-table > *:nth-child(1) > tr > th:nth-child(3){cursor: pointer; border-right: 1px solid #222;border-top: 1px solid #222;border-bottom: 1px solid #222;}
+.qna-table > *:nth-child(1) > tr > th:nth-child(4){cursor: pointer; border-right: 1px solid #222;border-top: 1px solid #222;border-bottom: 1px solid #222;}
+.qna-table > *:nth-child(1) > tr > th:nth-child(5){width: 500px;border:none;}
+
+/* 컬럼별 설정 */
+/* .qna-table > * > * > *:nth-child(1){width: 100px;} */
+
+/* tbody 컬럼별 설정 */
+.qna-table > tbody > * > *:nth-child(1) > span{font-size: 30px;}
+.qna-table > tbody > * > *:nth-child(2){text-align: center}
+
+/* tbody 로우별 설정 */
+.qna-table > tbody > tr:nth-child(2n+1){height: 60px;cursor: pointer;}
+.qna-table > tbody > tr:nth-child(2n+1) > *{border-bottom: 1px solid #222;border-top: 1px solid #222;margin-top: 20px;}
+.qna-table > tbody > tr:nth-child(2n+1) > *:first-child{border-left: 1px solid #222}
+.qna-table > tbody > tr:nth-child(2n+1) > *:last-child{border-right: 1px solid #222}
+.qna-table > tbody > tr:nth-child(2n){height: 80px;display: none;}
+
+.qna-table > tbody > tr:nth-child(2n) > *{border-bottom: 1px solid #222;border-top: 1px solid #222;margin-top: 20px;}
+.qna-table > tbody > tr:nth-child(2n) > *:first-child{border-left: 1px solid #222}
+.qna-table > tbody > tr:nth-child(2n) > *:last-child{border-right: 1px solid #222}
+
+/* 셀별 설정 */
+.qna-table > tbody > tr:nth-child(2n+1) > *:nth-child(1){color: red;text-align: center}
+.qna-table > tbody > tr:nth-child(2n+1) > *:nth-child(2){color: #8a6d3b}
+.qna-table > tbody > tr:nth-child(2n+1) > *:nth-child(3){padding-left: 20px;}
+
+.qna-table > tbody > tr:nth-child(2n) > *:nth-child(1){padding:15px;}
+
+
+
+

@@ -1,0 +1,21 @@
+main{height: auto;}
+main > div:first-child {text-align: center;width: 90%;}
+.left-box {float: left;position: relative;display:block;text-align: center;height: auto;width: 60%;margin-top: 50px;margin-bottom: 50px;}
+.left-box > h1 {font-size: 28px;text-align: left;margin-bottom: 20px;}
+.left-box > h2 {font-size: 24px;text-align: right;}
+.left-box > button{font-size: 20px;padding: 10px;width: 150px;;}
+.left-box > *:nth-child(4){margin-right: 40px}
+.left-box > *:nth-child(5){margin-left: 60px}
+.bx-wrapper {margin-bottom: 20px;}
+
+.right-box{float: right;position: relative;display: block;text-align: left;width: 30%;margin-top: 100px;margin-right: 90px;}
+.right-box > h2:nth-child(1){font-size: 18px;text-align: left;margin-bottom: 10px;}
+.right-box > p:nth-of-type(1) {font-size: 16px;margin-bottom: 25px;}
+.right-box > table {text-align: left;margin-left: 0;margin-bottom: 30px;}
+table, th,td{font-size: 16px;text-align: left}
+table > thead > tr > th{height: 30px;}
+.right-box > h2:nth-of-type(2){font-size: 20px;margin-bottom: 10px;}
+.right-box > p:nth-of-type(2){margin-bottom: 20px;}
+.right-box > *:last-child{text-align: center;display: inline-block;width: 100%;margin-top: 10px;}
+.basket {border-style: none;background: none;cursor: pointer;}
+footer{clear: both;}

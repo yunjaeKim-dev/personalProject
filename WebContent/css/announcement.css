@@ -1,0 +1,27 @@
+main{height: auto;}
+
+/* 공지 */
+table {text-align: center;height: 500px;margin-top: 50px;width: auto;}
+table, tr , th, td{border-bottom: 2px solid silver;border-collapse:collapse;font-size: 16px; }
+th,td{padding-bottom: 15px;padding-top: 10px}
+table tr *{padding-top: 15px;}
+table tr:nth-child(2n+1){background: #0002;}
+table tr > *:nth-child(1){width: 80px;}
+table tr > *:nth-child(2){width: 600px;}
+table tr > *:nth-child(3){width: 120px;}
+table tr > *:nth-child(4){width: 140px;}
+table tr > td:nth-child(2){cursor: pointer;text-align: left;padding-left: 10px;}
+
+/* 하단*/
+main > div{width: 900px;height: 50px;text-align: center;margin-top: 15px;margin-bottom: 20px;}  
+/* 일단 페이지 번호 */
+main > div > div:nth-child(1){text-align: center;width: 300px;display: block;}
+main > div > div:nth-child(1) > div {width: 30px;height:30px;display: block;padding-top: 5px;float: left;margin-right: 10px;}
+main > div > div:nth-child(1) {content: "";clear: both;display: block;}
+/* main > div > a{font-size:22px;} */
+
+/* 찾기 */
+main > div > div:nth-child(2) {display: block;float: right;margin-right: 10px;}
+main > div > div:nth-child(2) > form > button{width: 36px;height: 34px;
+    float: left;display: block;background: url("../images/search_icon.svg") no-repeat;background-size: cover;}
+main > div > div:nth-child(2) input {height: 30px;width:160px;float: left;display: block;}

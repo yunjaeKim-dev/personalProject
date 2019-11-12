@@ -1,0 +1,43 @@
+main{height: auto;}
+/* 팝업 */
+.popup__inquire{display: none;}
+.bg__inquire{background: #000;opacity: .7;top: 0;left: 0;z-index: 9999;position: fixed;}
+.layer__inquire{width: 300px;height: auto;position: fixed;right: 0;left: 0;z-index: 10000;text-align: center; border: 1px solid #222;background: #f4f4f4 ;
+    padding: 20px 0;
+}
+.layer__inquire > h2{margin: 10px 0;}
+
+
+/* 게시판 선택 */
+select{display: inline-block;margin: 50px 0 0 170px;padding:5px 10px 5px 10px; width:130px;height:40px;font-size: 16px}
+option{font-size: 16px;padding: 10px;padding-bottom: 5px;margin: 5px 0 5px 0;height: 40px;}
+/* 게시글 */
+table {text-align: center;height: 500px;margin-top: 15px;}
+table, tr , th, td{border-bottom: 2px solid silver;border-collapse:collapse;font-size: 16px; }
+th,td{padding-bottom: 15px;padding-top: 10px}
+table tr:nth-child(2n+1){background: #0002;}
+table tr > *:nth-child(1){width: 80px;}
+table tr > *:nth-child(2){width: 80px;}
+table tr > *:nth-child(3){width: 80px;}
+table tr > *:nth-child(4){width: 500px;}
+table tr > *:nth-child(5){width: 70px;}
+table tr > *:nth-child(6){width: 140px;}
+table tr > td:nth-child(4){cursor: pointer;text-align: left;padding-left: 10px;}
+table tr > td:nth-child(3){text-indent: -99999px;background: no-repeat 50% 50%;background-size: contain;text-align: center
+}
+
+
+
+/* 하단*/
+main > div{width: 900px;height: 50px;text-align: center;margin-top: 20px;display: block;margin-bottom: 20px}  
+/* 글쓰기 */
+main > div > button{font-size:22px;float: left;width: 120px;height: 43px;}
+/* 일단 페이지 번호 */
+main > div *:nth-child(2) {width: 250px;;}
+main > div > *:nth-child(2) > * {width: 30px; height: 30px;display: block;float: left;margin-right: 10px;padding-top: 5px;}
+
+main > div > *:nth-child(3) {display: block;float: right;margin-right: 10px;}
+
+main > div > div > form > button{width: 36px;height: 34px;
+    float: left;display: block;background: url("../images/search_icon.svg") no-repeat;background-size: cover;}
+main > div > div input {height: 30px;width:160px;float: left;display: block;}

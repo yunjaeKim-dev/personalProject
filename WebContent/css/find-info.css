@@ -1,0 +1,26 @@
+main{height: auto;text-align: center}
+/* 이메일 체크 확인 */
+.popup-check{display: none;}
+.bg-check{position: fixed;top: 0;left: 0;background: #000;opacity: .7;z-index: 999;}
+.layer-check{position: fixed;right: 0;left: 0;width: 500px;height: auto;text-align: center;border: 1px solid #222;background: #f4f4f4;height: auto; z-index: 1000;}
+.layer-check > h2 {font-size: 20px;margin-bottom: 10px;margin-left: 25px;margin-right: 25px;;}
+.layer-check > h2:nth-child(1){margin-top: 20px;}
+.layer-check > button {height: auto; width: auto;padding:5px 10px;margin-bottom: 20px;margin-top: 10px;}
+
+/* 아이디 비번 찾기*/
+.find{width: 90%;height: 530px;display: block;margin-top: 55px;background: rgb(224, 224, 224);margin-bottom: 50px;}
+/* 아이디 찾기 */
+.find-id{float: left;text-align: center; margin-left: 50px;width: 40%;margin-top: 40px;display: block}
+.find-id > h1{margin-top: 15px;margin-bottom: 70px;}
+.find-id > h2 {text-align: left;font-size: 18px;margin-left: 15px;margin-bottom: 15px;}
+.find-id > input {text-align: left;margin-bottom: 25px;font-size: 16px;width: 80%;padding: 10px;}
+.find-id > [type="tel"]{margin-bottom: 80px}
+.find-id > button {margin-bottom: 30px;margin-top: 20px;padding: 10px;font-size: 16px;display: block;}
+/* 가운데 선 */
+.line{width:0px;height:85%;border-left: 1px solid #222;opacity: .7;border-right: 1px solid #2227;position: relative;display: inline-block;margin-top: 40px;}
+/* 비밀번호 찾기 */
+.find-pw{float: right;text-align: center; margin-right: 50px;width: 40%;margin-top: 40px;display: block;}
+.find-pw > h1{margin-top: 15px;margin-bottom: 20px;}
+.find-pw > h2 {text-align: left;font-size: 18px;margin-left: 15px;margin-bottom: 15px;}
+.find-pw > input {text-align: left;margin-bottom: 25px;font-size: 16px;width: 80%;padding: 10px;}
+.find-pw > button {margin-bottom: 30px;margin-top: 20px;padding: 10px;font-size: 16px;display: block;}

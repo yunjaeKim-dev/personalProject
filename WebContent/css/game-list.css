@@ -1,0 +1,49 @@
+*{margin: 0 auto;}
+main{height: auto;text-align: left;}
+main > div {width: 90%;margin-top: 25px;height: auto;}
+.game__list{margin-bottom:50px;}
+
+/* 게임 카테고리 */
+.game-sort{height: 60px;}
+.game-sort select {font-size: 16px;height: 40px;padding-left: 10px;padding-top: 5px;}
+.game-sort > select:nth-child(1){width: 80px;}
+.game-sort > select:nth-child(2){width: 140px;}
+/* 게임 목록 */
+.game-list{width:300px;display: inline-block;text-align: center; padding:0;margin:0 27px;}
+.game-list td,.game-list tr{text-align: center; padding:0;}
+.game-list tr:nth-child(1) td{height:150px;width:300px;}
+.game-list tr:nth-child(1) td a{display: block;width:100%;height:100%;text-indent:-9999px;}
+.game-list tr:nth-child(2) td{height:40px;width:300px;}
+.game-list tr:nth-child(2) a {white-space: pre;}
+.game-list tr:nth-child(3) td{height:40px;width:300px;} 
+.game-list tr:nth-child(4) td{height:40px;width:150px;}
+
+.game-list button {font-size:16px;padding:5px;}
+
+
+
+/* 구매,장바구니 팝업! */
+/* 구매 팝업 */
+.buy-wrapper{display:none;}
+.bg-buy__game-list{background: #000;opacity: .7;z-index: 890;position: fixed;left: 0;top: 0;}
+.layer-buy__game-list{width: 300px;background: #ffffff;z-index: 1000;border: 1px solid #222;right: 0;left: 0;position: fixed;
+    text-align: center; 
+}
+.layer-buy__game-list > h2{font-size: 20px;margin: 20px 0;}
+.layer-buy__game-list > button {padding: 5px;font-size: 16px;margin-bottom: 20px;}
+
+.check-login{width: 300px;background: #ffffff;z-index: 1000;border: 1px solid #222;right: 0;left: 0;position: fixed;
+    text-align: center;}
+.check-login > h2{font-size: 20px;margin: 20px 0;}
+.check-login > button {padding: 5px;font-size: 16px;margin-bottom: 20px;}
+
+/* 장바구니 팝업 */
+.tray-wrapper{display:none;}
+.bg-tray__game-list{background: #000;opacity: .7;z-index: 890;position: fixed;left: 0;top: 0;}
+.layer-tray__game-list{text-align: center;
+    width: 300px;height: auto;background: #ffffff;
+    z-index: 1000;border: 1px solid #222;
+    right: 0;left: 0;position: fixed;
+}
+.layer-tray__game-list > h2{font-size: 20px;margin: 20px 0;}
+.layer-tray__game-list > button{font-size: 16px;padding:5px;margin-bottom: 20px;}

@@ -1,0 +1,9 @@
+*{margin:0 auto;padding:0;}
+main{height: auto;}
+.adjust-post{text-align: left; width: 90%;margin-top: 30px;}
+.adjust-post > select {width: 130px;height:40px;font-size: 16px;padding-left: 10px;}
+.adjust-post > div {width: 100%;margin-top: 20px;margin-bottom: 10px;}
+.adjust-post > div > input {width:100%; height: 30px;padding: 8px 0 0 10px; font-size: 20px;}
+.adjust-post > div > textarea{width: 1050px;height:400px;font-size: 20px;padding: 20px;resize: none;border: 1px dotted;margin-top: 10px;}
+.adjust-post button {width:120px;height:auto;margin-bottom: 25px;float: right;margin-right: 40px;padding: 10px 10px 5px 10px;}
+.adjust-post::after{content:"";clear: both;display: block;}

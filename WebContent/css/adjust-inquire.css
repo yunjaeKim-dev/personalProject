@@ -1,0 +1,8 @@
+*{margin:0 auto;padding:0;}
+main{height: auto;}
+.adjust-inquire{text-align: left; width: 90%;margin-top: 30px;}
+.adjust-inquire > div {width: 100%;margin-top: 20px;margin-bottom: 10px;}
+.adjust-inquire > div > h2 {width:1070px;height: 30px;padding: 8px 0 0 10px;}
+.adjust-inquire > div > textarea{width: 1050px;height:400px;font-size: 20px;padding: 20px;resize: none;border: 1px dotted #222;margin-top: 10px;}
+.adjust-inquire button {width:80px;height:35px;padding-top: 3px;margin-bottom: 25px;float: right;margin-right: 40px;}
+.adjust-inquire::after{content:"";clear: both;display: block;}

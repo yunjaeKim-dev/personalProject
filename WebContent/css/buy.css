@@ -1,0 +1,23 @@
+main{height: auto;}
+table,td,th{border: 1px solid #222;}
+table{border-collapse: collapse;margin-top: 50px;width: 90%;text-align: center;margin-bottom: 20px;}
+
+table > thead > tr th{height: 40px;font-size: 20px;padding: 10px}
+table > thead > tr > th:nth-child(1) > input {width: 15px;height: 15px;}
+.basket-in{height: 200px;}
+
+table > tfoot > tr > td:first-child{padding: 10px;}
+table > tfoot > tr > td:last-child{padding: 10px;text-align: right;padding-right: 30px;}
+.game-img{text-indent: -9999px; width: 100%; height: 67px;display: inline-block;}
+table > tbody > tr:nth-child(1) > td:nth-child(2) a{display: block;width: 100%;height:100%;text-indent:-9999px;}
+table > tbody > tr:nth-child(1) > td:nth-child(1) > input{width: 15px;height: 15px;}
+/* table > tbody > tr:nth-child(2) > td{text-align: left;height: 50px;} */
+.delete{font-size: 16px;padding:5px;}
+table > tfoot > tr:nth-child(1) > td > button{float:left ;font-size: 12px;padding: 5px;margin-left: 15px; }
+table > * > tr > *:nth-child(1) {width: 60px;font-size: 20px}
+main > button:nth-of-type(1) {float: right;display: block;position: relative;margin-bottom: 30px;margin-right: 50px;padding: 6px;font-size: 16px;border:3px solid red}
+
+h3{text-align: center;font-size: 24px;display: inline-block;margin-top: 200px;float: none;margin-left:500px;}
+
+
+footer{clear: both;}

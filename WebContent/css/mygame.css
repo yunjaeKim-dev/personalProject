@@ -1,0 +1,15 @@
+main{height: auto;}
+table, td, th{border: 1px solid #222;}
+table{border: 1px solid #222;border-collapse: collapse;margin-top: 50px;margin-bottom: 50px;}
+
+th{font-size: 20px;height: auto;padding:10px;}
+th:nth-child(1){width: 120px;}
+th:nth-child(2){width: 800px;}
+
+table > tbody > tr > td:nth-child(1){height: 120px;text-indent: -9999px;cursor: pointer;}
+table > tbody > tr > td:nth-child(2){text-align: center;cursor: pointer;}
+
+table > tbody> tr:nth-child(1) > td:nth-child(1){background: url("../images/game1.jpg") no-repeat 50% 50%;background-size: contain;}
+table > tbody> tr:nth-child(2) > td:nth-child(1){background: url("../images/game2.jpg") no-repeat 50% 50%;background-size: contain;}
+table > tbody> tr:nth-child(3) > td:nth-child(1){background: url("../images/game3.jpg") no-repeat 50% 50%;background-size: contain;}
+
